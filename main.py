@@ -5,3 +5,5 @@ def noveld():
     ertek = output.innerHTML
     szam = int(ertek) +1
     output.innerHTML =szam
+    print(szam)
+    
