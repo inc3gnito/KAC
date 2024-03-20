@@ -10,9 +10,11 @@
     <meta name="revisit-after" content="14 days">
     <title>Kaposvári Asztalitenisz Club</title>
     <style type="text/css"></style>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    
     <script> defer src ="https://pyscript.net/latest/"</script>
       
 </head>
@@ -27,6 +29,15 @@
         <div class="container-fluid">
             <h1>Fejlesztés alatt...
             </h1>
+            <h1>Véletlenszámok</h1>
+    <py-script>
+        import random
+        
+        for _ in range(5):
+            szam = random.randint(1, 10)
+            print(szam)
+    </py-script>
+    <py-terminal></py-terminal>
             <p>
                 Sportolni, mozogni vágyók figyelem!<br>
 A Kaposvári Asztalitenisz Club szeretettel várja a sportolni, mozogni váró fiatalokat és időseket egyaránt<br> akik iskolai vagy munkahelyi elfoglaltságuk mellett késztetést éreznek magukban egy kis feltöltődésre, testmozgásra.<br>
