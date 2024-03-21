@@ -34,12 +34,12 @@ ul{
 
 /* HEADER */
 header{
-  background-image: url(/images/wall1.jpg);
+  background-image: url(./images/construction.jpg);
 
   padding-top: 2px;
   min-height: 200px;
   border-bottom: #e8491d 1px solid;
-  color: #ffffff;
+  color: #160101;
 }
 header a{
   color: #e8491d;
