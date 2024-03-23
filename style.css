@@ -36,10 +36,10 @@ ul{
 header{
   background-color: #ffffff;
 
-  padding-top: 1px;
+  padding-top: 20px;
   min-height: 200px;
   border-bottom: #ffffff 1px solid;
-  color: #160101;
+  color: #ffffff;
 }
 header a{
   color: #55514f;
@@ -88,7 +88,6 @@ div.scrollmenu a {
 div.scrollmenu a:hover {
   background-color: #777;
 }
-
 /* Body Style */
 #showcase {
   min-height: 400px;
